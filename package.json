@@ -1,0 +1,29 @@
+{
+  "name": "ds-reqres-automation-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anfikaa/DS-reqres-automation-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anfikaa/DS-reqres-automation-testing/issues"
+  },
+  "homepage": "https://github.com/anfikaa/DS-reqres-automation-testing#readme",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.6",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
